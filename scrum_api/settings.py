@@ -25,9 +25,7 @@ SECRET_KEY = "django-insecure-&*vv@+a#z4ql(92iviurhu@=vsc&sg85thocm^n3hmlv3q)&ev
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    'scrumapi-device.dataplicity.io'
-]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
